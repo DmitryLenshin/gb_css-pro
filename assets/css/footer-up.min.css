@@ -1,0 +1,9 @@
+.footer-up {
+  background-color: var(--black);
+  height: 340px;
+}
+
+.foter-up-container {
+  width: 1180px;
+  padding: 0 20px;
+}
