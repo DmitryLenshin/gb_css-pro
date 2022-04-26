@@ -10,7 +10,14 @@
 }
 
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: "Lato";
+}
+
+.page {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .main {
