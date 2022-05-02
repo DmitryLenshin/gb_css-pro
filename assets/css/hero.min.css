@@ -31,6 +31,6 @@
 
 .hero__text::before {
   content: "";
-  border: solid var(--pink-decor) 5px;
+  border-left: solid var(--pink-decor) 8px;
   margin-right: 16px;
 }
