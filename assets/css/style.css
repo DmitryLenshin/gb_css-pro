@@ -562,6 +562,10 @@ html {
     color: var(--pink-decor);
 }
 
+.cards__link {
+    text-decoration: none;
+}
+
 .fetured {
     margin-top: 96px;
     text-align: center;
@@ -781,6 +785,11 @@ html {
     font-size: 18px;
 }
 
+.fa-brands {
+    color: black;
+    font-size: 18px;
+}
+
 .footer__form-inpt {
     padding: 8px;
     background: var(--light-gray);
@@ -800,7 +809,6 @@ html {
 
 .footer__form-btn:hover {
     background-color: var(--light-gray);
-    color: var(--pink-decor);
 }
 
 .footer__reserved {
@@ -835,8 +843,101 @@ html {
     width: 32px;
     height: 32px;
     margin: 8px;
+    transition: 0.2s;
 }
 
 .footer__reserved-sociallink:hover {
     background-color: var(--pink-decor);
+}
+
+.footer__reserved-sociallink:hover .fa-brands {
+    color: white;
+}
+
+.product__hero-up {
+    position: relative;
+    width: 100%;
+    background-color: #f8f3f4;
+}
+
+.product__hero__contaier {
+    margin: 0 auto;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1180px;
+    padding: 0 20px;
+}
+
+.product__hero__contaier div {
+    padding: 65px 0;
+}
+
+.product__hero-link {
+    display: inline;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.product__hero-link:last-of-type {
+    color: var(--pink-decor);
+}
+
+.product__hero-slider-box {
+    background-color: #f7f7f7;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.product__hero-slider-box button {
+    border: none;
+    background-color: inherit;
+    font-size: 30px;
+}
+
+.product__women-conten {
+    background-color: #ffffff;
+    margin: 0 auto;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1160px;
+    padding: 0 20px;
+}
+
+.product__women-conten-subtitle {
+    margin-top: 64px;
+    color: var(--pink-decor);
+}
+
+.product__women-conten-subtitle::before {
+    content: "";
+    border-bottom: 3px solid var(--pink-decor);
+}
+
+.product__women-conten-head {
+    margin-top: 12px;
+}
+
+.product__women-conten-deskr {
+    width: 70%;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.product__women-conten-price {
+    margin-top: 32px;
+}
+
+.product__women-conten-filter details {
+    padding: 10px;
+    margin-bottom: 48px;
+}
+
+.product__women-conten-btn {
+    border: none;
+    background-color: inherit;
 }

@@ -51,6 +51,11 @@
     font-size: 18px;
 }
 
+.fa-brands {
+    color: black;
+    font-size: 18px;
+}
+
 .footer__form-inpt {
     padding: 8px;
     background: var(--light-gray);
@@ -70,7 +75,6 @@
 
 .footer__form-btn:hover {
     background-color: var(--light-gray);
-    color: var(--pink-decor);
 }
 
 .footer__reserved {
@@ -105,8 +109,13 @@
     width: 32px;
     height: 32px;
     margin: 8px;
+    transition: 0.2s;
 }
 
 .footer__reserved-sociallink:hover {
     background-color: var(--pink-decor);
+}
+
+.footer__reserved-sociallink:hover .fa-brands {
+    color: white;
 }

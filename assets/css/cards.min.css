@@ -44,3 +44,7 @@
 .cards__down-item span {
   color: var(--pink-decor);
 }
+
+.cards__link {
+  text-decoration: none;
+}
