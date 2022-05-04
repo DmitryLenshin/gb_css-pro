@@ -1,0 +1,28 @@
+.flex {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato";
+}
+
+.page {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1160px;
+    padding: 0 10px;
+    max-width: 100%;
+}

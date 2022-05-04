@@ -3,15 +3,14 @@
 }
 
 .hero__container {
-    width: 1140px;
+    -ms-flex-pack: right;
+    justify-content: right;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1140px;
     height: 764px;
     margin: 0 auto;
     background: url(../images/hero-bg.png) -220px center no-repeat;
-}
-
-.hero__text {
-    padding-top: 292px;
-    padding-left: 562px;
 }
 
 .hero__title {
@@ -34,6 +33,6 @@
 
 .hero__text::before {
     content: "";
-    border: solid var(--pink-decor) 5px;
+    border-left: solid var(--pink-decor) 8px;
     margin-right: 16px;
 }
