@@ -40,9 +40,18 @@
     font-size: 30px;
 }
 
-.product__women-conten {
-    background-color: #ffffff;
+.clear_box {
+    position: relative;
     margin: 0 auto;
+    width: 1140px;
+    height: 512px;
+}
+
+.product__women-conten {
+    position: absolute;
+    top: -75px;
+    z-index: 100000;
+    background-color: #fff;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-direction: column;
@@ -50,6 +59,13 @@
     width: 100%;
     max-width: 1160px;
     padding: 0 20px;
+    border: 1px solid #eaeaea;
+}
+
+.product__women-conten hr {
+    overflow: visible;
+    width: 641px;
+    border: 1px solid #eaeaea;
 }
 
 .product__women-conten-subtitle {
@@ -74,6 +90,13 @@
 
 .product__women-conten-price {
     margin-top: 32px;
+    margin-bottom: 65px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
 }
 
 .product__women-conten-filter details {
@@ -84,4 +107,5 @@
 .product__women-conten-btn {
     border: none;
     background-color: inherit;
+    margin-bottom: 65px;
 }

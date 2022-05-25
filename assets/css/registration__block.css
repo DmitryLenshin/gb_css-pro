@@ -1,0 +1,49 @@
+.reg__form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-bottom: 94px;
+}
+
+.registration__box-left {
+    width: 30%;
+    margin-right: 128px;
+}
+
+.reg__form-item {
+    padding: 13px 0 16px 16px;
+    border: 1px solid #a4a4a4;
+    margin-top: 20px;
+}
+
+.reg__form-item-sex {
+    margin-top: 31px;
+    padding: 0 20px 0 10px;
+}
+
+.reg__form-deskr {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.reg__form-btn {
+    margin-top: 39px;
+    border: none;
+    background: #F16D7F;
+    padding: 16px 30px;
+}
+
+.registration__box-right {
+    margin-top: 64px;
+    width: 70%;
+}
+
+.red {
+    padding: 200px;
+}

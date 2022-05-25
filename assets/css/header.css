@@ -54,7 +54,7 @@
     padding: 8px;
 }
 
-.header__meni-item {
+.header__menu-item {
     display: block;
     text-decoration: none;
     font-style: normal;
@@ -67,6 +67,5 @@
 }
 
 .header__burger:hover .header__menu-box {
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
 }
