@@ -60,6 +60,23 @@
   margin-left: 25px;
 }
 
+.header__list-left-item-serach {
+  margin-left: 10px;
+  height: 70%;
+  color: #d88c96;
+  outline: none;
+}
+
+.header__list-left-search {
+  border-right: 5px;
+  background-color: var(--pink-decor);
+  visibility: hidden;
+}
+
+.header__list-left-item-serach:hover .header__list-left-search {
+  visibility: visible;
+}
+
 .header__list-right-item:hover .header__menu {
   display: block;
 }

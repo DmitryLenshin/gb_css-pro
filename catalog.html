@@ -29,8 +29,9 @@
             <li class="header__list-left-item">
               <a href="index.html"><img src="./assets/images/logo.png" alt="logo"></a>
             </li>
-            <li class="header__list-left-item">
+            <li class="header__list-left-item-serach">
               <a href="#"> <img src="./assets/images/Search.svg" alt=""></a>
+              <input class="header__list-left-search" type="search" size="18">
             </li>
           </ul>
           <ul class="header__list-right flex">
@@ -98,193 +99,230 @@
       </div>
       <div class="main">
 
-        <section class="catalog">
-          <div class="catalog__menu">
+        <div class="catalog__menu flex">
+          <div class="accordion__box">
+            <details class="accordin__item">
+              <summary class="accordion__title"> FILTER <i class="fa-solid fa-signal"></i>
+              </summary>
         
+              <details class="accordin__item">
+                <summary class="accordion__title">CATEGORY</summary>
+                <p class="accordion__link"><a href="#">Accessories</a></p>
+                <p class="accordion__link"><a href="#">Bags</a></p>
+                <p class="accordion__link"><a href="#">Denim</a></p>
+                <p class="accordion__link"><a href="#">Hoodies & Sweatshirts</a></p>
+                <p class="accordion__link"><a href="#">Jackets & Coats</a></p>
+                <p class="accordion__link"><a href="#">Polos</a></p>
+                <p class="accordion__link"><a href="#">Shirts</a></p>
+                <p class="accordion__link"><a href="#">Shoes</a></p>
+                <p class="accordion__link"><a href="#">Sweaters & Knits</a></p>
+                <p class="accordion__link"><a href="#">T-Shirts</a></p>
+                <p class="accordion__link"><a href="#">Tanks</a></p>
+              </details>
+        
+        
+              <details class="accordin__item">
+                <summary class="accordion__title">BRAND</summary>
+                <p class="accordion__link"><a href="#">Lorem.</a></p>
+                <p class="accordion__link"><a href="#">Lorem.</a></p>
+              </details>
+        
+              <details class="accordin__item">
+                <summary class="accordion__title">DESIGNER</summary>
+                <p class="accordion__link"><a href="#">Lorem.</a></p>
+                <p class="accordion__link"><a href="#">Lorem.</a></p>
+              </details>
+        
+            </details>
+        
+          </div>
+          <div class="filter__menu ">
+            <details class="filter__menu_item">
+              <summary class="filter__menu_title">TRENDING NOW <i class="fa-solid fa-angle-down"></i></summary>
+            </details>
+            <details class="filter__menu_item">
+              <summary class="filter__menu_title"> SIZE <i class="fa-solid fa-angle-down"></i></summary>
+            </details>
+            <details class="filter__menu_item">
+              <summary class="filter__menu_title"> PRICE <i class="fa-solid fa-angle-down"></i></summary>
+            </details>
           </div>
         
           <div class="fetured">
-            <div>
-              <details> 
-                <summary> FILTER <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z"
-                    fill="black" />
-                </svg>
-         </summary>
-                <details> </details>
-                <details> </details>
-                <details> </details>
-              </details>
-        <p>
-        <i class="fa-duotone fa-bars-sort"></i>
-        </p>
-            </div>
+          </div>
         
-            <div class="fetured__box">
-              <ul class="fetured__list flex">
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f1.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+        
+        
+        
+        
+        
+        
+        </div>
+        <section class="catalog">
+          <div class="fetured__box">
+            <ul class="fetured__list flex">
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f1.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
+                </a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
         
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f2.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f2.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
+                </a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
         
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f3.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f3.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
+                </a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
         
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f4.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f4.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
+                </a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
         
         
         
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f5.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-        
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f5.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
+                </a>
         
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f6.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
+        
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f6.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
+                </a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
         
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f6.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f6.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f5.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-        
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f5.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
+                </a>
+        
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
         
         
-                <li class="fetured__list-item">
-                  <a class="fetured__list-link" href="product.html">
-                    <img class="featured__pic" src="./assets/images/f6.png" alt="">
-                    <div class="fetured__list-item-content">
-                      <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
-                      <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool
-                        Kym Ellery teams up with Moda
-                        Operandi.</p>
-                      <p class="fetured__list-item-price">$52.00</p>
-                    </div>
-                  </a>
-                  <div class="add">
-                    <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+              <li class="fetured__list-item">
+                <a class="fetured__list-link" href="product.html">
+                  <img class="featured__pic" src="./assets/images/f6.png" alt="">
+                  <div class="fetured__list-item-content">
+                    <h3 class="fetured__list-item-subtitle">ELLERY X M'O CAPSULE</h3>
+                    <p class="fetured__list-item-deskr">Known for her sculptural takes on traditional tailoring, Australian
+                      arbiter of cool
+                      Kym Ellery teams up with Moda
+                      Operandi.</p>
+                    <p class="fetured__list-item-price">$52.00</p>
                   </div>
-                </li>
-              </ul>
+                </a>
+                <div class="add">
+                  <a class="add_cart" href="#"><img src="./assets/images/Add to cart.svg" alt=""></a>
+                </div>
+              </li>
+            </ul>
         
         
         
         
-            </div>
+          </div>
           </div>
         </section>
 
