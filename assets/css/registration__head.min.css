@@ -1,0 +1,22 @@
+.registration_head {
+  background-color: var(--gray-pink);
+}
+
+.registration_head-box {
+  margin: 0 auto;
+  width: 1160px;
+  padding: 0 10px;
+  max-width: 100%;
+}
+
+.reg__head-menu {
+  padding: 59px 0;
+}
+
+.reg__head-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}

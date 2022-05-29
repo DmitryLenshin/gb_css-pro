@@ -16,6 +16,12 @@
     height: 260px;
     width: calc(33.3333333333% - 20px);
     background: url(../images/cards\ 1.png) center center no-repeat;
+    transition: 0.3s;
+}
+
+.cards__top_list-item:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .cards__top_list-item p {
@@ -39,6 +45,12 @@
     width: 100%;
     height: 180px;
     background: url(../images/cards\ 4.png);
+    transition: 0.3s;
+}
+
+.cards__down-item:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .cards__down-item p {

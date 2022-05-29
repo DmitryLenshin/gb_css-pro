@@ -1,0 +1,86 @@
+.reg__form {
+  margin-top: 64px;
+  margin-bottom: 94px;
+  box-shadow: 0 4px 16 #ccc;
+}
+
+.registration__box-left {
+  width: 30%;
+  margin-right: 128px;
+}
+
+.reg__form-item {
+  width: 100%;
+  padding: 13px 0 16px 16px;
+  border: 1px solid #a4a4a4;
+  margin-top: 20px;
+}
+
+.reg__form-itemP,
+label {
+  letter-spacing: 1px;
+}
+
+.reg__form-item-sex {
+  padding: 0 20px 0 10px;
+  margin: 31px 10px 33px 0;
+}
+
+.reg__form-deskr {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #b1b1b1;
+}
+
+.reg__form-btn {
+  margin-top: 39px;
+  border: none;
+  background: #f16d7f;
+  color: white;
+  padding: 16px 30px;
+  transition: 0.3s;
+}
+
+.reg__form-btn:hover {
+  background-color: inherit;
+  color: #f16d7f;
+  outline: 1px solid #FF6A6A;
+}
+
+.registration__box-right {
+  margin-top: 64px;
+  width: 70%;
+}
+
+.red {
+  padding: 200px;
+}
+
+.registratin__right-title {
+  margin-bottom: 22px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.reg__right-deskr {
+  padding-bottom: 22px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.reg__right-list-item {
+  margin: 21px 0 0 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.reg__right-list-item i {
+  margin-right: 23px;
+}
