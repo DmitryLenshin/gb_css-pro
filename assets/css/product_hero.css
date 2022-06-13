@@ -1,0 +1,111 @@
+.product__hero-up {
+    position: relative;
+    width: 100%;
+    background-color: #f8f3f4;
+}
+
+.product__hero__contaier {
+    margin: 0 auto;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1180px;
+    padding: 0 20px;
+}
+
+.product__hero__contaier div {
+    padding: 65px 0;
+}
+
+.product__hero-link {
+    display: inline;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.product__hero-link:last-of-type {
+    color: var(--pink-decor);
+}
+
+.product__hero-slider-box {
+    background-color: #f7f7f7;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.product__hero-slider-box button {
+    border: none;
+    background-color: inherit;
+    font-size: 30px;
+}
+
+.clear_box {
+    position: relative;
+    margin: 0 auto;
+    width: 1140px;
+    height: 512px;
+}
+
+.product__women-conten {
+    position: absolute;
+    top: -75px;
+    z-index: 100000;
+    background-color: #fff;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1160px;
+    padding: 0 20px;
+    border: 1px solid #eaeaea;
+}
+
+.product__women-conten hr {
+    overflow: visible;
+    width: 641px;
+    border: 1px solid #eaeaea;
+}
+
+.product__women-conten-subtitle {
+    margin-top: 64px;
+    color: var(--pink-decor);
+}
+
+.product__women-conten-subtitle::before {
+    content: "";
+    border-bottom: 3px solid var(--pink-decor);
+}
+
+.product__women-conten-head {
+    margin-top: 12px;
+}
+
+.product__women-conten-deskr {
+    width: 70%;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.product__women-conten-price {
+    margin-top: 32px;
+    margin-bottom: 65px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+}
+
+.product__women-conten-filter details {
+    padding: 10px;
+    margin-bottom: 48px;
+}
+
+.product__women-conten-btn {
+    border: none;
+    background-color: inherit;
+    margin-bottom: 65px;
+}
