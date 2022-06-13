@@ -34,3 +34,13 @@
   border-left: solid var(--pink-decor) 8px;
   margin-right: 16px;
 }
+
+.hero__text {
+  padding: 20px;
+}
+
+@media (max-width: 830px) {
+  .hero__container {
+    background: none;
+  }
+}

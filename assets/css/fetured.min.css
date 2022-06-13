@@ -27,6 +27,7 @@
 .fetured__list {
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .fetured__list-item {
@@ -122,4 +123,18 @@
 .fetured__btn:hover {
   background-color: var(--pink-decor);
   color: var(--light-gray);
+}
+
+@media (max-width: 736px) {
+  .fetured__list-item {
+    width: calc(50% - 20px);
+    margin-right: 0px;
+  }
+}
+@media (max-width: 420px) {
+  .fetured__list-item {
+    width: calc(100% - 20px);
+    margin-right: 0px;
+    margin: 0 auto;
+  }
 }
