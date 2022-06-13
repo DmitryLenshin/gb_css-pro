@@ -26,9 +26,18 @@
 }
 
 .product__hero-slider-box {
+  width: 100%;
+  margin: 0 auto;
   background-color: #f7f7f7;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+}
+
+.product__hero-slider-img {
+  object-fit: cover;
+  width: 70%;
+  height: auto;
 }
 
 .product__hero-slider-box button {
@@ -37,17 +46,26 @@
   font-size: 30px;
 }
 
+.fa-circle-arrow-left {
+  padding-left: 20px;
+}
+
+.fa-circle-arrow-right {
+  padding-right: 20px;
+}
+
 .clear_box {
   position: relative;
   margin: 0 auto;
-  width: 1140px;
+  width: 100%;
+  max-width: 1140px;
   height: 512px;
 }
 
 .product__women-conten {
   position: absolute;
   top: -75px;
-  z-index: 100000;
+  z-index: 100;
   background-color: #fff;
   align-items: center;
   flex-direction: column;
@@ -91,7 +109,7 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  color: #EF5B70;
+  color: #ef5b70;
 }
 
 .product__women-conten-filter details {
@@ -103,4 +121,15 @@
   border: none;
   background-color: inherit;
   margin-bottom: 65px;
+}
+
+@media (max-width: 730px) {
+  .product__women-conten {
+    top: -5px;
+  }
+}
+@media (max-width: 430px) {
+  .product__hero__contaier div {
+    padding: 30px;
+  }
 }

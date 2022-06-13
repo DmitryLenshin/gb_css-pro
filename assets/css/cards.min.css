@@ -3,6 +3,7 @@
 }
 
 .cards__top_list {
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
@@ -13,6 +14,7 @@
   height: 260px;
   width: calc(33.3333333333% - 20px);
   background: url(../images/cards\ 1.png) center center no-repeat;
+  background-size: cover;
   transition: 0.3s;
 }
 
@@ -57,4 +59,11 @@
 
 .cards__link {
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .cards__top_list-item {
+    width: 100%;
+    margin: 20px;
+  }
 }

@@ -47,7 +47,7 @@ label {
 .reg__form-btn:hover {
     background-color: inherit;
     color: #f16d7f;
-    outline: 1px solid #FF6A6A;
+    outline: 1px solid #ff6a6a;
 }
 
 .registration__box-right {
@@ -83,4 +83,42 @@ label {
 
 .reg__right-list-item i {
     margin-right: 23px;
+}
+
+.pagination {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-top: 48px;
+    margin-bottom: 96px;
+    padding: 15px 16px;
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+}
+
+.pagination-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pagination-link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.pagination-item:first-child::before {
+    cursor: pointer;
+    content: url(../images/Vector.svg);
+}
+
+.pagination-item:last-child::before {
+    cursor: pointer;
+    content: url(../images/Vector2.svg);
 }
